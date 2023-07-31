@@ -1,9 +1,29 @@
 <html>
     <head>
         <title>My website 11</title>
+
+        <style>
+             #myid{
+                color: darkred;
+
+            }  
+            p{
+                color: crimson;
+                background-color: aqua;
+            }
+            .xyz {
+                color: darkkhaki;
+                background-color: black;
+            } 
+            .abc{
+                color: hotpink;
+                background-color: aqua;
+            } 
+           
+        </style>
     </head>
     <body>
-        <h1>My heading</h1>
+        <h1 id="myid">My heading</h1>
         <h2>My heading</h2>
         <h3>My heading</h3>
         <h4>My heading</h4>
@@ -12,6 +32,88 @@
         
         <p>hello this is a paragraph</p>
         <img src="/image/lwallp.jpeg">
-        
+        <a href="#myid">Bookmark</a>
+<!--   -->
+    <ol type="1" start="6" reversed>
+       <li>item 1</li>
+       <li>item2</li> 
+        <li>item3</li>
+        <li>item 4</li>
+    </ol>
+    <ul>
+        <li>item 1</li>
+        <li>item2</li> 
+         <li>item3</li>
+         <li>item 4</li>
+
+
+    </ul>
+
+    <dl>
+        <dt>Car</dt>
+        <dd>Red car</dd>
+        <dt>Car</dt>
+        <dd>Red car</dd>
+        <dt>Car</dt>
+        <dd>Red car</dd>
+        <dt>Car</dt>
+        <dd>Red car</dd>
+        <!-- dd--description -->
+
+    </dl>
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <!-- <td>4</td> -->
+        </tr>
+        <tr>
+            <td rowspan="1">5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+
+
+
+
+    </table>
+
+    <p>Test</p>
+    <p>paraaaaa</p>
+    <p style="color: blue; margin:0px;">
+        Inline CSSS
+    </p>
+    <p class="xyz abc">
+         hello 1
+    </p>
+    <p class="xyz">
+        hello2
+    </p>
+    <h1 class="abc">
+        hello3
+    </h1>
+    <p id="myid"  class="abc">
+        through id(case sensitive)
+    </p>
     </body>
 </html>
