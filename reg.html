@@ -1,0 +1,104 @@
+
+<html>
+
+<head>
+    <title>SignUp Form</title>
+    <style>
+            .heading {
+            color: rgb(134, 0, 134);
+            margin:auto;
+            border-radius: 8px;
+            padding: 20px 40px;
+            box-shadow:  5px 15px rgba(92, 99, 105, .2);
+            }
+            body {
+            margin: 0;
+            padding: 0;
+            background-image: url(/image/ben-maguire-FTYgqLeseI4-unsplash.jpg);
+            font-family: "lato", sans-serif;
+            }
+            .in {
+            height: 100%;
+            width: 100%;
+            border: 1px solid purple;
+            border-radius: 7px;
+            padding: 10px 20px;
+            }
+            :placeholder-shown{
+            color: purple;
+            font-size: 16px;
+            }
+               
+            .bord{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            }
+            .form {          
+            background-color: white;
+            width: 400px;
+            border-radius: 8px;
+            padding: 20px 40px;
+            box-shadow:  5px 15px rgba(92, 99, 105, .2);
+            }
+            .inputt {
+            position:sticky;
+            height: 55px;
+            width: 100%;
+            margin-bottom: 30px;
+            }
+            .submit {
+            display: block;
+            margin:auto;
+            padding: 15px 30px;
+            background-color: purple;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 30px;
+            }
+            .submit:hover {
+            background-color: #9867C5;
+            
+            }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="heading" align="center" style="padding: 10x;">Register Here !!</h1>
+    <hr color=" purple">
+    <div class="bord">
+        <form class="form">
+            <div class="inputt">
+            <input type="text" id="name"  class="in" required placeholder="Username">
+            <label for="name"></label>
+            </div>
+      
+        
+            <div class="inputt">
+        <input type="email" id="email" class="in" required placeholder="Email id">
+        <label for="email" ></label>
+    </div>
+        
+
+        <div class="inputt">
+        <input type="password" id="psswd"class="in"  required placeholder="Password">
+        <label for="psswd"> </label>
+    </div>
+       
+        <div class="inputt">
+        <input type="password" id="cpsswd"class="in" required placeholder="Confirm Password">
+        <label for="cpsswd"> </label>
+
+        
+    </div>
+    <input type="submit" class="submit" value="Sign up">
+    </form>
+</div>
+<hr>
+</body>
+
+</html>
