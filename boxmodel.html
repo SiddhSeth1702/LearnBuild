@@ -11,6 +11,16 @@
             margin-top: 50px;
             border-radius: 50px;
         }
+        .im{
+          border-style:solid;
+            border-width: 2px 3px;
+            border-color: red green yellow blue;
+            margin: 10px;
+            margin-top: 50px;
+            border-radius: 50px;
+            width: 500px;
+           
+        }
   /* box model properties are considered in elemnt width */
   .bor,td,th{
             border-color: darkcyan;
@@ -21,7 +31,20 @@
             padding-left: 50px;
             padding-right: 50px;
   }
-
+  .para{
+    border: solid;
+    border-radius: 30px;
+    padding:10px 40px;
+    background-color: darkgray;
+  }
+  .para:hover{
+    background-color: aqua;
+    
+  }
+  .im:hover{
+    width:900px;
+    transition: width 4s;
+  }
         </style>
 </head>
 <body style="background-color: darkgray;">
@@ -60,5 +83,13 @@
             <td><a href="https://www.youtube.com">Measurements</a></td>
           </tr>
       </table>
+  <br>
+  <nav align="center" style="margin-top: 30px;">
+    <button class="para"  align="center" >Home</button>
+    <button class="para"  align="center" href="reg.html" >Register</button>
+    <button class="para"  align="center" >Home</button>
+  </nav>
+<img src="/image/city.jpeg" class="im">
+
 </body>
 </html>
